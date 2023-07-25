@@ -1,0 +1,12 @@
+Table : patients
+- id (clé primaire)
+- nom
+- prenom
+- date_naissance
+- adresse
+
+Table : rendez_vous
+- id (clé primaire)
+- patient_id (clé étrangère faisant référence à l'id du patient)
+- date_heure
+- motif
